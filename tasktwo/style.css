@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bor{
+    border: 2px solid red;
+}
+.nav-logo{
+    display: flex;
+    size: 3px;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.nav-logo>img{
+    border-radius: 70%;
+    width: 3rem;
+    border: 1px solid black;
+    padding: 2px 3px;
+
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar ul{
+    display: flex;
+    
+}
+.nav-bar> ul > li{
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: brown;
+    
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+}
+.banner{
+    display: flex;
+    background: url("download.jpeg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem;
+
+}
+.banner > h1 {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.banner >p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: center ;
+    padding: 15px 30px;
+    border-radius: 3rem;
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+}
+.card-handler{
+    display: flex;
+    padding: 2rem;
+}
+.card-memo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px 2px rgb(241, 234, 234);
+    margin: 2rem;
+    border-radius: 5px;
+    
+}
+.card-memo>h3{
+    color: brown;
+    padding-top: 2px;
+}
+.card>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    color: brown;
+}
+.card-memo>p{
+    padding-top: 10px;
+}
