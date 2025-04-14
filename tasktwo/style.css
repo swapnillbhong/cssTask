@@ -44,7 +44,7 @@
 .banner{
     display: flex;
     background: url("download.jpeg");
-    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -53,8 +53,8 @@
 }
 .banner > h1 {
     display: flex;
-    justify-content: center;
-    color: blueviolet;
+    text-align: center;
+    color: brown;
     font-size: 3rem;
     padding-bottom: 3rem;
 }
@@ -63,6 +63,7 @@
     justify-content: center;
     font-size: 1.5rem;
     padding-bottom: 1rem;
+    color: brown;
 }
 .btn{
     display: flex;
@@ -105,10 +106,11 @@
 }
 .card>h1{
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 2rem;
     color: brown;
 }
 .card-memo>p{
     padding-top: 10px;
+    text-align: center;
 }
