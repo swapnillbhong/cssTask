@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bor{
+    border: 1px solid red;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-logo img{
+    display: flex;
+    width: 2.5rem;
+    border: 3px solid greenyellow;
+    border-radius: 50%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkslategray;
+    padding: 0.5rem;
+
+}
+.nav-bar>ul{
+    display: flex;
+}
+.nav-bar>ul>li{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 1rem;
+}
+.Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/3451249901/thumb/1.jpg?ip=x480");
+    background-size: cover;
+}
+.Banner>h1{
+    padding: 5px;
+    color: greenyellow;
+}
+.Banner>p{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Banner>img{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin: 0;
+}
+.Banner>button{
+    margin-top: 15px;
+    padding:10px 30px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: none;
+}
+.card-holder{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7px 15px;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: grey;
+    border: none    ;
+}
+.card{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: black;
+    gap: 10px;
+}
