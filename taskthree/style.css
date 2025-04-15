@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 7rem;
+    padding: 4rem;
     background-image: url("https://www.shutterstock.com/shutterstock/videos/3451249901/thumb/1.jpg?ip=x480");
     background-size: cover;
 }
@@ -69,17 +69,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 7px 15px;
+    padding: 1rem;
     align-items: center;
     color: aliceblue;
     border-radius: 10px;
     background-color: grey;
-    border: none    ;
+    border: none ;
+    justify-content: space-evenly;
 }
 .card{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 3rem;
     justify-content: space-evenly;
     text-align: center;
     background-color: black;
